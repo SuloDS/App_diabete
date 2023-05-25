@@ -216,7 +216,7 @@ with col4:
 
 hasClicked = card(
   title="SuloDS!",
-  text="Para saber mas sobre mim, click aque.",
+  text="Para saber mas sobre mim, clique nesta imagem.",
   image="https://avatars.githubusercontent.com/u/109469430?v=4",
   url="https://github.com/SuloDS"
 )
