@@ -204,13 +204,13 @@ with col4:
 
     if (result[0]== 0):
         st.markdown('<div style="text-align: justify;border: 2px solid green;">' +
-                    '<h5>Caro Amigo 😎 💖<span style="color: green;">' +
+                    '<h4>Caro Amigo 😎 💖<span style="color: green;">' +
                     'as chances de teres diabetes são mininas, continue mantendo um estilo de vida saudável.</span>',
                     unsafe_allow_html=True)
     else:
         st.markdown('<div style="display: flex; justify-content: center;border: 2px solid red;">' +
                     '<div style="text-align: justify;">' +
-                    '<h5>Caro Amigo 😟<span style="color: red;">' +
+                    '<h4>Caro Amigo 😟<span style="color: red;">' +
                     'é importante que você saiba que existe um grande risco de teres diabetes. É crucial que você tome medidas preventivas!</span>',
                     unsafe_allow_html=True)
 st.markdown(
