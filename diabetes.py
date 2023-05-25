@@ -213,34 +213,7 @@ with col4:
                     '<h3>Caro Amigo 😟<span style="color: red;">' +
                     'é importante que você saiba que existe um grande risco de teres diabetes. É crucial que você tome medidas preventivas!</span>',
                     unsafe_allow_html=True)
-st.markdown(
-    """
-    <style>
-    /* CSS for input labels */
-    .stNumberInput input[type="number"] {
-         color: #302c2c;
-        background-color: #68ffc7;
-        background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: 0.25rem;
-        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    }
 
-    /* CSS for select boxes */
-    .st-ci {
-        color: #302c2c;
-        background-color: #68ffc7;
-        background-clip: padding-box;
-        border: 1px solid #ced4da;
-        border-radius: 0.25rem;
-        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    }
-    
-    
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 hasClicked = card(
   title="SuloDS!",
   text="Para saber mas sobre mim, click aque.",
