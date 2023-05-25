@@ -11,7 +11,7 @@ from streamlit_card import card
 st.markdown("<h2 style='text-align: center; color: #339665;'>Sistema de diagnóstico de Diabetes</h2>", unsafe_allow_html=True)
 st.image('ft2.jpg')
 
-texto = """ Caros amigos e amigas, gostaria de apresentar a vocês um sistema de diagnóstico de diabetes, uma ferramenta inovadora que pode ajudar a 
+texto = """ Caros amigo/as, gostaria de apresentar a vocês um sistema de diagnóstico de diabetes, uma ferramenta inovadora que pode ajudar a 
 identificar a possibilidade de ter essa condição médica. O diabetes é uma das doenças crônicas com risco de vida que mais 
 cresce e já afetou 422 milhões de pessoas em todo o mundo de acordo com o relatório da Organização Mundial da Saúde (OMS), em 2018. Devido à presença
  de uma fase assintomática relativamente longa, a deteção precoce do diabetes é sempre desejado para um resultado
@@ -204,13 +204,13 @@ with col4:
 
     if (result[0]== 0):
         st.markdown('<div style="text-align: justify;border: 2px solid green;">' +
-                    '<h4>Caro Amigo 😎 💖<span style="color: green;">' +
+                    '<h3>Caro Amigo 😎 💖<span style="color: green;">' +
                     'as chances de teres diabetes são mininas, continue mantendo um estilo de vida saudável.</span>',
                     unsafe_allow_html=True)
     else:
         st.markdown('<div style="display: flex; justify-content: center;border: 2px solid red;">' +
                     '<div style="text-align: justify;">' +
-                    '<h4>Caro Amigo 😟<span style="color: red;">' +
+                    '<h3>Caro Amigo 😟<span style="color: red;">' +
                     'é importante que você saiba que existe um grande risco de teres diabetes. É crucial que você tome medidas preventivas!</span>',
                     unsafe_allow_html=True)
 st.markdown(
