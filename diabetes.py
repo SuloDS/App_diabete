@@ -211,7 +211,7 @@ with col4:
         st.markdown('<div style="display: flex; justify-content: center;border: 2px solid red;">' +
                     '<div style="text-align: justify;">' +
                     '<h3>Caro Amigo 😟<span style="color: red;">' +
-                    'é importante que você saiba que existe um grande risco de teres diabetes. É crucial que você tome medidas preventivas!</span>',
+                    'é importante que você saiba que existe um risco de teres diabetes. É crucial que você tome medidas preventivas!</span>',
                     unsafe_allow_html=True)
 
 hasClicked = card(
