@@ -215,8 +215,8 @@ with col4:
                     unsafe_allow_html=True)
 
 hasClicked = card(
-  title="SuloDS!",
-  text="Para saber mas sobre mim, clique.",
+  title="SuloDS",
+  text="Para saber mas sobre mim, clique!",
   image="https://avatars.githubusercontent.com/u/109469430?v=4",
   url="https://github.com/SuloDS"
 )
